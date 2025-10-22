@@ -1,0 +1,14 @@
+version: '3'
+tasks:
+  default:
+    desc: Display all tasks
+    cmds:
+      - task: list
+  list:
+    desc: List all tasks
+    cmds:
+      - task -l
+  dev:
+    desc: Run development server
+    cmds:
+      - air -c .air.toml
