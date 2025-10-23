@@ -321,7 +321,7 @@ func fill(current, target *Droplet, maxVolume, flowRate float64) {
 
 func main() {
 	// Create a new game
-	var game = NewGame(800, 400, 10)
+	var game = NewGame(1920, 1080, 20)
 	// Initialize Raylib
 	rl.InitWindow(int32(game.Width), int32(game.Height), "WaterSim")
 	defer rl.CloseWindow()
